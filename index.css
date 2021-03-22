@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Oleo Script', cursive;
+
+}
+html{
+    scroll-behavior:smooth;
+}
+p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #a9a9a9;
+}
+
+h1 .title {
+    margin-bottom: 20px;
+    color: #444444;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+    font-size: 38px;
+    word-spacing: 25px;
+    letter-spacing: 5px;
+
+}
+
+.btn a {
+    display: block;
+    width: 180px;
+    height: 35px;
+    border: 2px solid #22fb74;
+    line-height: 35px;
+    margin: 25px auto 0;
+    color: #fb2274;
+}
+
+.btn a:hover {
+    color: rgb(68, 20, 201);
+}
+
+.main_container {
+    position: relative;
+}
+
+/* nav bar */
+.navbar {
+    width: 100%;
+    position: fixed;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url('http://localhost/4sem/carrent/pictures/nav.jpg')
+}
+
+.logo a {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #fff;
+}
+
+.navbar .navbar_items ul {
+    display: flex;
+}
+
+.navbar .navbar_items ul li {
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+.navbar .navbar_items ul li a {
+    color: #fff;
+}
+
+.navbar .navbar_items ul li a:hover {
+    transform: scale(1.1);
+    color: rgb(179, 19, 19)
+}
+
+/*banner image */
+.banner_image {
+    background: url('http://localhost/4sem/carrent/darkcar.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_content {
+    text-align: center;
+    color: #fff;
+    background-color: black;
+}
+
+.banner_content h1 {
+    text-transform: uppercase;
+    line-height: 38px;
+    margin-bottom: 15px;
+}
+
+.banner_content h1 span {
+    color: #a1df10;
+    background-color:black;
+}
+
+/*About us*/
+.about,
+.services,
+.ourteam {
+    padding: 5% 10%;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/*Our services*/
+.services {
+    background: #f5f5f5;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.diff_services {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+
+.diff_service_item {
+    width: 30%;
+}
+
+.diff_service_item img {
+    width: 100%;
+    margin-bottom: 25px;
+    transition: all 0.5s ease;
+}
+
+.diff_service_item h3 {
+    color: #fb2274;
+    margin-bottom: 15px;
+}
+
+.diff_service_item img:hover {
+    transform: scale(1.1);
+}
+
+/*Our team and drivers*/
+.ourteam {
+    background: #52d9eb;
+}
+
+.ourteam_wrapper .team {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ourteam_wrapper .team-1.team {
+    margin-bottom: 25px;
+}
+
+.ourteam_wrapper .team_member {
+    width: 30%;
+    height: auto;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.ourteam_wrapper .team_member img {
+    width: 100%;
+    display: block;
+    height: auto;
+    transition: all 0.5s ease;
+}
+
+.ourteam_wrapper .team_member:hover img {
+    transform: scale(1.1);
+}
+
+.ourteam_wrapper .team_member p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0d3cd6;
+}
+/*Background div in the middle*/
+.img-2{
+     background-image: url('http://localhost/4sem/carrent/back2.jpg');
+     background-attachment: fixed;
+     min-height: 400px;
+     right: 300px;
+     background-repeat: no-repeat;
+}
+.img-txt{
+    position: center;
+    left: 0;
+    bottom: 50%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(63, 230, 30);
+}
+.img-txt span{
+    color: black;
+}
+
+/*contact us*/
+.contactus{
+    position: relative;
+}
+.contactus h1.title{
+    text-align: center;
+}
+.contact_btn a {
+    display: block;
+    width: 180px;
+    height: 35px;
+    border: 2px solid #ace91e;
+    line-height: 35px;
+    margin: 25px auto 0;
+    color: #fb2274;
+    text-align: center;
+}
+
+.contact_btn a:hover {
+    color: rgb(17, 87, 218);
+}
+
+/*Footer*/
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: rgb(69, 36, 168);
+}
+.admin_btn button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    float: top;
+}
+
+/*contact us*/
+.contactus {
+    background: #d8e2dc;
+}
+
+
+
+/*arrow*/
+.arrow{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background:rgb(42, 10, 223);
+    border-radius: 50%;
+}
+.arrow img{
+	width: 20px;
+	height: 20px;
+	z-index: 1;
+}
+
+
+
+@media (max-width: 720px) {
+    .navbar {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 25px;
+    }
+
+    .navbar ul li {
+        margin-bottom: 5px;
+    }
+
+    .banner_content {
+        margin-top: 35px;
+    }
+}
